@@ -10,6 +10,7 @@ public class Movie {
     private String movieName,actorName,directorName;
 
     public Movie(int movieId, String movieName, String actorName, String directorName) {
+
         this.movieId = movieId;
         this.movieName = movieName;
         this.actorName = actorName;
